@@ -1,0 +1,15 @@
+Cómo está construido por dentro:
+
+SKILL.md (orquestador)
+├── 13 sub-habilidades (seo-técnico, seo-esquema, seo-contenido, seo-geo, ...)
+├── 17 scripts (parse_html.py, entity_checker.py, hreflang_checker.py, ...)
+├── 6 archivos de referencia (tipos de esquema, marco E-E-A-T, umbrales CWV, ...)
+└── generate_report.py → informe HTML interactivo
+
+
+The SEO skill includes 16 sub-skills, 10 specialist agents, and 33 scripts for website, blog, and GitHub repository SEO analysis. You can now use commands like:
+
+seo audit <url> — full website audit
+seo geo <url> — AI search optimization (GEO)
+seo github <repo> — GitHub repository discoverability
+seo technical <url> — technical SEO checks
