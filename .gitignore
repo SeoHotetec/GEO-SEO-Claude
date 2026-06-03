@@ -1,0 +1,6 @@
+# Never commit Google Cloud service account JSON
+gcp-service-account.json
+*-service-account.json
+*-sa.json
+.env
+.env.local
